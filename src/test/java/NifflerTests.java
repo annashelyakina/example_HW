@@ -16,7 +16,6 @@ public class NifflerTests {
         $("header").$(byText("New spending")).click();
         $("#amount").setValue("55");
         sleep(3000);
-//        $("#category").setValue("Milk");
         $("ul").$(byText("Milk")).click();
         $("#save").click();
         $("[placeholder=Search]").setValue("Milk").pressEnter();
